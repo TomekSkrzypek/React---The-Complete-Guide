@@ -50,6 +50,8 @@ const App = () => {
         onSavedDataApp={addExpenseHandler}
       />
       <Expenses expensy={expenses} />
+
+      {/* added some comment in App */}
     </div>
   );
 };
